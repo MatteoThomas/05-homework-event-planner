@@ -1,20 +1,6 @@
-# Title
+## Homework 05 Event planner
 
-This is an example file with default selections.
+I didn't get the color to change based on the hour, saving to individual rows, or to lock only one row on save.
 
-## Install
-
-```
-```
-
-## Usage
-
-```
-```
-
-## Contributing
-
-PRs accepted.
-
-## License
-
+## Preview
+![preview](/assets/img/05-homework-preview.png)
