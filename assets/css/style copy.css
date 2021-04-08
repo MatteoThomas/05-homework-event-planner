@@ -51,15 +51,15 @@ body {
     border-top: 1px dashed #000000;
   }
   
-  /*
   .textarea {
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
+  
   }
-  */
-  .past {
+  
+  #past {
     background-color: #bdbdbd;
     color: black;
     width: 100%;
