@@ -7,29 +7,51 @@ var saveBtn = document.querySelectorAll("button");
 var formRow = document.getElementsByClassName('form-control')
 //var eventText = document.getElementById('textarea').value;
 var hour = document.getElementsByClassName("hour")
-
-var $hourIds
-
+var hourId = document.querySelectorAll('[id^=textarea]');
+//console.log(hourId);
 var gradDate = moment().format("dddd, MMMM Do");
 document.getElementById("currentDay").innerHTML = gradDate;
 
+$("textarea").addClass("past");
 var currentHour = moment().format("h");
-//var today = new Date();
-console.log(currentHour, 'current hour');
+
+console.log('The current hour is',currentHour );
+
+// gets all 'hour' class elements and makes a node list
+var nodeList = document.getElementsByClassName('hour');
+
+
+
+change()
+function change(){
+
+for (let i = 0; i < nodeList.length; i++) {
+  let item = nodeList[i].textContent.replace(/[^0-9]/g,'');
+
+console.log(item);
+
+if(currentHour < item){
+  $(formRow).removeClass('past').addClass('future');
+  console.log("future");
+} else if(currentHour == item){
+  $(formRow).removeClass('past').addClass('current');
+  console.log("current");
+}}}
+
 
 
 
 renderStored();
-
+save();
 function save() {
   var eventText = $('[id^=textarea]').val();
   localStorage.setItem('enteredText', eventText);
   console.log(eventText);
 }
 
-$(saveBtn).click(function() {
+$(saveBtn).click(function () {
   save();
-  disable();
+  //disable();
 });
 
 function renderStored() {
@@ -39,30 +61,28 @@ function renderStored() {
   console.log(storedText)
   $('#textarea').text(storedText);
 }
-
+/*
 function disable() {
   $("[id^=textarea]:input").prop('readonly', true);
   $("button-addon2").on("click", function (event) {
-  
-})}
 
-
-var css;
-var id = $('[id^=textarea]').attr('id').replace(/textarea/, '');
-console.log(id);
-switch(id) {
-  case currentHour == row:
-    css = $(formRow).addClass("present");
-    break;
-    case currentHour > row:
-    css = $(formRow).addClass("past");
-    break;
-    case currentHour < row:
-      css = $(formRow).addClass("future");
-    break;
-
+  })
 }
 
+*/
 
+var divs = document.getElementsByTagName('[id^=textarea]');
+console.log(divs);
+for(var i = 0; i < divs.length; i++){
+  //do something to each div like
+  divs[i].innerHTML = "something new...";
+}
 
+if (hourId < currentHour) {
+$(hourId).addClass('future');
+document.write("future");
+} else {
+  $(hourId).addClass('past');
+  document.write("past");
+} 
 
