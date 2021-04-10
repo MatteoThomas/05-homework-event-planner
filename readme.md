@@ -1,8 +1,11 @@
 ## Homework 05 Event planner
+This is my updated assignment. I addressed all issues of the previous submission.
 
-https://matteothomas.github.io/05-homework-event-planner/
+## Links
+[Event Planner](https://matteothomas.github.io/05-homework-event-planner/)
 
-I didn't get the color to change based on the hour, saving to individual rows, or to lock only one row on save.
+[Github Repository](https://github.com/MatteoThomas/05-homework-event-planner)
+
 
 ## Preview
-![preview](/assets/img/05-homework-preview.png)
+![preview](/assets/img/mainpage.png)
