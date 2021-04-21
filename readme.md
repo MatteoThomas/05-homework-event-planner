@@ -19,7 +19,7 @@ The purpose of this app is to save entered text in hour blocks when a seve butto
 [Github Repository](https://matteothomas.github.io/simple-event-planner/)
 
 ## Preview
-![preview](/assets/img/mainpage.png)
+![preview](/assets/img/neg.png)
 
 ## License
 Licensed under the MIT license.
