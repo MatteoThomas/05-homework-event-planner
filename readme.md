@@ -14,9 +14,9 @@ The purpose of this app is to save entered text in hour blocks when a seve butto
 [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) &nbsp; [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) &nbsp; [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
 ## Installation
-[Event Planner](https://matteothomas.github.io/05-homework-event-planner/)
+[Event Planner](https://matteothomas.github.io/simple-event-planner)
 
-[Github Repository](https://matteothomas.github.io/simple-event-planner/)
+[Github Repository](https://github.com/MatteoThomas/simple-event-planner)
 
 ## Preview
 ![preview](/assets/img/neg.png)
