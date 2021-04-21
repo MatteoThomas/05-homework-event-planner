@@ -16,7 +16,7 @@ The purpose of this app is to save entered text in hour blocks when a seve butto
 ## Installation
 [Event Planner](https://matteothomas.github.io/05-homework-event-planner/)
 
-[Github Repository](https://github.com/MatteoThomas/05-homework-event-planner)
+[Github Repository](https://matteothomas.github.io/simple-event-planner/)
 
 ## Preview
 ![preview](/assets/img/mainpage.png)
