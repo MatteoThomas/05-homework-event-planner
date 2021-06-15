@@ -1,4 +1,4 @@
-# Homework 05 Event planner
+# Homework 05 Work Day Scheduler
 
 ## Table of Contents
 1. [General Info](#general-info)
